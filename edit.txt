@@ -1,0 +1,25 @@
+<div class="background clearfix">
+          <img
+            src="Documents/ChrisImage.jpeg"
+            alt="Christopher Flores"
+            class="Myphoto"
+          />
+
+          <h1>Christopher Flores</h1>
+          <ul class="InfoList">
+            <li>HighSchool: Murray Hill Academy</li>
+            <li>College: Hunter College</li>
+            <li>Major: Computer Science</li>
+            <li>Graduate Year: 2025</li>
+            <li>Languages: English/Spanish/Japanese</li>
+          </ul>
+        </div><div class="intro">
+          <h2>Introduction:</h2>
+          <p>
+            Hello everyone! My name is Christopher Flores, I am 3rd year student
+            at Hunter College within the Daedalus Program (Honor Computer
+            Science). I am currently am learning HTML and CSS, but also have a
+            background knowlege on C++ and Java. I will Include links to my
+            Linkin/github/resume for those want to take a look on my background.
+          </p>
+        </div>

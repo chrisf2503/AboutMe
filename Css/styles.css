@@ -1,0 +1,41 @@
+body{
+    background-color: royalblue;
+}
+article{
+    background-color: blueviolet;
+    position: relative;
+    display: flex;
+}
+.myinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center; 
+}
+img{
+    width: 150px;
+    border-radius: 25%;
+    margin-right: 5px;
+}
+ul{
+    list-style: none;
+    font-style: italic;
+    font-size: large;
+}
+button{
+    background-color: crimson;
+    border-radius: 25%;
+}
+.boxs{
+    background-color: aqua;
+}
+.work,.techSkill{
+    list-style: circle;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}

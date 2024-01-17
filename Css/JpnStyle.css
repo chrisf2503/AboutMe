@@ -1,0 +1,9 @@
+img {
+    width: 100px;
+    object-fit: cover;
+    float: left;
+    margin-right: 17px;
+}
+#Intro p::marker{
+    font-weight: bold;
+}
