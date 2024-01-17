@@ -1,35 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
-      img {
-        width: 150px;
-        object-fit:cover;
-        border-radius: 50px;
-        float: left;
-        margin-right: 17px;
-      }
-    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me</title>
+    <title>Christopher Flores</title>
+    <link rel="stylesheet" href="Css/styles.css" />
+    <link rel="stylesheet" href="Css/normalize.css" />
   </head>
   <body>
-    <h1>Christopher Flores</h1>
-    <img src="Documents/ChrisImage.jpeg" alt="A Photo of me!"/>
-    <p intro="Introducion">
-      Hello everyone! My name is Christopher Flores, I am a current 3rd year
-      student at Hunter College in the Deadalus Program (Honors Computer
-      Science). I will leave links to my github linkin and resume on this
-      website. I am currently just using basic HTML and hopefully through out
-      the up coming month I will improve and make updates!
-    </p>
-    <h2>About me:</h2>
-    <p about="info"></p>
-    <h4>Links:</h4>
-    <a href="https://www.linkedin.com/in/christopher-flores-48b4801b2/"
-    target="_blank"><button>LinkIn</button></a>
-    <a href="https://github.com/chrisf2503"target="_blank"><button>github</button></a>
-    <a href="Documents/Copy of Resume.docx (1).pdf" target="_blank"><button>Resume</button></a>
+    <main>
+      <div class="myinfo clearfix">
+        <div class="boxs photo">
+          <img src="Documents/ChrisImage.jpeg" alt="Christopher Flores" />
+        </div>
+        <div class="boxs education">
+          <h1>Christopher Flores</h1>
+          <ul class="InfoList">
+            <li>HighSchool: Murray Hill Academy</li>
+            <li>College: Hunter College</li>
+            <li>Major: Computer Science</li>
+            <li>Graduate Year: 2025</li>
+            <li>Languages: English/Spanish/Japanese</li>
+          </ul>
+        </div>
+        <div class="boxs intro">
+          <h2>Introduction:</h2>
+          <p>
+            Hello everyone! My name is Christopher Flores, I am 3rd year student
+            at Hunter College within the Daedalus Program (Honor Computer
+            Science). I am currently am learning HTML and CSS, but also have a
+            background knowlege on C++ and Java. I will Include links to my
+            Linkin/github/resume for those want to take a look on my background.
+          </p>
+        </div>
+      </div>
+    </main>
+    <article class="clearfix">
+      <span class="experience">
+        <h2>Work Experiece:</h2>
+        <ul class="work">
+          <li>
+            NangMan BBQ(Sever/Bartender): 11/21 - Current
+            <p>
+              Current Senior Staff, resposible for closing and overlooking the
+              resturant
+            </p>
+          </li>
+          <li>
+            Caffe Bene(barista): 06/21-11/21
+            <p>Making verious coffee/shave ice</p>
+          </li>
+          <li>
+            Pratice Makes Perfect(Mentor):
+            <p>
+              Mentoring 1st Grades and helping teachers with scheduling/planning
+              lesson's/activity's
+            </p>
+          </li>
+        </ul>
+        <p>
+          <strong>Resume:</strong>
+          <a href="Documents/Copy of Resume.docx (1).pdf">
+            <button>Resume</button>
+          </a>
+        </p> </span
+      ><span class="tech">
+        <ul class="techSkill">
+          <h2>Technical Skills:</h2>
+          <li>
+            Java:
+            <p>
+              Work on Battleship and Connect 4 Game that is etheir 2 play or
+              single player(playing with a cpu)
+            </p>
+            <a href="https://replit.com/join/ohqmqghy-christopherflo4"
+              ><button>Battleship</button></a
+            >
+            <a href="https://replit.com/join/shujdqxe-christopherflo4"
+              ><button>Connect4</button></a
+            >
+          </li>
+          <li>
+            C++:
+            <p>
+              Japanese Study method in order help study/review vocabulary
+              chapter by chapter within the Genki Textbook.
+            </p>
+            <a href="https://github.com/chrisf2503/JpnVocab"
+              ><button>JpnVocab</button></a
+            >
+          </li>
+          <li>Html/Css</li>
+          <p>Working on this webpage and hopefully more within the future</p>
+        </ul>
+      </span>
+    </article>
   </body>
 </html>
