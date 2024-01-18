@@ -1,20 +1,27 @@
 body{
     background-color: royalblue;
 }
-main{
+ 
+article,.myinfo{
     position: relative;
     display: flex;
-}   
+}
 article{
-    background-color: blueviolet;
-    position: relative;
-    display: flex;
+    background-color: pink;
+    border-radius: 25%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.boxs{
+    margin: 5px;
+}
+.work,.techSkill{
+    list-style: circle;
 }
 img{
     width: 150px;
     border-radius: 25%;
-    margin: 10px;
-
 }
 ul{
     list-style: none;
@@ -24,17 +31,7 @@ ul{
 button{
     background-color: crimson;
     border-radius: 25%;
-}
-.myinfo,main{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: center; 
-}
-.work,.techSkill{
-    list-style: circle;
+    color: blue;
 }
 .clearfix::after{
     content: '';
