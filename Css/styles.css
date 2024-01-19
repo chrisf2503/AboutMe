@@ -7,8 +7,8 @@ article,.myinfo{
     display: flex;
 }
 article{
+    border-radius: 5%;
     background-color: pink;
-    border-radius: 25%;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -17,7 +17,16 @@ article{
     margin: 5px;
 }
 .work,.techSkill{
+    border-radius: 10%;
+    font-size: 15px;
     list-style: circle;
+    align-items: center;
+}
+.work{
+    background-color:coral;
+}
+.techSkill{
+    background-color:darkslateblue;
 }
 img{
     width: 150px;
