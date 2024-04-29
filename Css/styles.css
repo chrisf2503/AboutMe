@@ -67,21 +67,19 @@ body{
     height: fit-content;
 }
 #me{
-    width: 130px;
-    height: 150px;
+    width: 150px;
+    height: 175px;
 }
-#discription-list{
-    list-style: circle;
-    
-}
-.Experience-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 15px;
+#Nangman-img{
+    width: 24%;
+    height: 15%; 
+    float: left;
 }
 .Experience-container ul, ol{
     list-style: none;
+    padding: 5px;
+}
+.Experience-container li{
     padding: 5px;
 }
 .Experience-container{
