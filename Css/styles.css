@@ -88,3 +88,9 @@ body{
 .tech-projects a{
     color:red;
 }
+.mySlides{
+    display: block;
+}
+.no-show{
+    display: none;
+}
