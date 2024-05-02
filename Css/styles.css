@@ -78,11 +78,13 @@ body{
 #Caffe_bene{
     width: 40%;
     height: 320px; 
+    padding-right: 50px;
     float: left;
 }
 #PMP{
     width: 25%;
     height: 300px;
+    padding-right: 25px;
     float: left;
 }
 #discription-list{
