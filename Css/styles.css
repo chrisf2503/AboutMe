@@ -14,38 +14,25 @@ body{
     justify-content: space-evenly;
   
 }
-
 .navbar ul {
     list-style: none;
-  }
-  
+}
   /* Style rule set for individual li */
-  .navbar ul li {
+.navbar ul li {
     float: left;
     margin: 10px;
-  }
-  
-  
+}
   /* Style rule set for individual li link */
-  .navbar ul li a {
+.navbar ul li a {
     font-family: Arial;
     color:black;
     font-size: 16px;
     text-decoration: none;
-  }
-  
-  /* Style rule set for hovered link */
-  .navbar ul li a:hover {
+}
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
     font-weight: bold;
     color: blue;
-  }
-.container {
-    display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 20px;
-    padding: 15px;
 }
 #photo-span{
     text-align: center;
@@ -72,24 +59,32 @@ body{
 }
 #Nangman-img{
     width: 20%;
-    height: 15%; 
+    height: 20%; 
     float: left;
 }
 #Caffe_bene{
     width: 40%;
-    height: 320px; 
+    height: 40%; 
     padding-right: 50px;
     float: left;
 }
 #PMP{
-    width: 25%;
-    height: 300px;
+    width: 37.5%;
+    height: 37.5%;
     padding-right: 25px;
     float: left;
 }
 #discription-list{
     margin: 0px;
     padding-top: 0px;
+}
+.container {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
 }
 .Experience-container ul, ol{
     list-style: none;
@@ -102,6 +97,7 @@ body{
     text-align: center;
 }
 .Non-Tech-Experience{
+    background-color: cadetblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,4 +111,7 @@ body{
 }
 .no-show{
     display: none;
+}
+.w3-button{
+    margin-top: 10px;
 }
